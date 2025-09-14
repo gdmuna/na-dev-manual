@@ -1,8 +1,7 @@
 import { defineConfig } from 'vitepress';
-import { withMermaid } from 'vitepress-plugin-mermaid';
 
 // https://vitepress.dev/reference/site-config
-export default withMermaid({
+export default defineConfig({
     lang: 'zh-CN',
     title: '小白开发入门手册',
     description: 'A Site of How to Use Campus Web in GDMU.',
@@ -57,10 +56,5 @@ export default withMermaid({
     },
     sitemap: {
         hostname: 'https://dev-manual.gdmuna.com/'
-    },
-    // https://emersonbottero.github.io/vitepress-plugin-mermaid
-    mermaid: {},
-    mermaidPlugin: {
-        class: 'mermaid'
     }
 });
