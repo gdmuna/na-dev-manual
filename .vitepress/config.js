@@ -23,9 +23,27 @@ export default defineConfig({
         logo: '/logo.svg',
         nav: [
             { text: '主页', link: '/' },
+            { text: '序章', link: '/prologue/before-everything-begins/why-this-manual' },
             { text: 'Web开发', link: '/web/intro/what-is-it' }
         ],
         sidebar: {
+            '/prologue/': [
+                {
+                    text: '谒见厅',
+                    items: [
+                        { text: '为什么要写这本手册', link: '/prologue/before-everything-begins/why-this-manual' },
+                        { text: '电脑系统环境验收清单', link: '/prologue/before-everything-begins/pc-system-env-checklist' }
+                    ]
+                },
+                {
+                    text: '常用软件的安装方法',
+                    items: [
+                        { text: 'WinRAR', link: '/prologue/install/winrar' },
+                        { text: 'Motrix', link: '/prologue/install/motrix' },
+                        { text: 'Office', link: '/prologue/install/office' }
+                    ]
+                }
+            ],
             '/web/': [
                 {
                     text: '简介',

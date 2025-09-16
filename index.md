@@ -9,5 +9,5 @@ hero:
     actions:
         - theme: brand
           text: 快速开始
-          link: /web/intro/what-is-it
+          link: /prologue/before-everything-begins/why-this-manual
 ---
