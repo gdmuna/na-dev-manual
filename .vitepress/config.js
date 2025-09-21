@@ -32,7 +32,8 @@ export default defineConfig({
                     text: '谒见厅',
                     items: [
                         { text: '为什么要写这本手册', link: '/prologue/before-everything-begins/why-this-manual' },
-                        { text: '电脑系统环境验收清单', link: '/prologue/before-everything-begins/pc-system-env-checklist' }
+                        { text: '电脑系统环境验收清单', link: '/prologue/before-everything-begins/pc-system-env-checklist' },
+                        { text: '提问的艺术', link: '/prologue/before-everything-begins/how-to-ask' }
                     ]
                 },
                 {
