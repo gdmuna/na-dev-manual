@@ -48,6 +48,14 @@ export default defineConfig({
                     ]
                 },
                 {
+                    text: '电脑系统的安装事项',
+                    items: [
+                        { text: '如何下载系统镜像', link: '/prologue/install-os/how-to-download-system-image' },
+                        { text: '使用 Ventoy 制作系统启动盘', link: '/prologue/install-os/use-ventoy-make-bootable-usb-device' },
+                        { text: '如何对磁盘进行分区', link: '/prologue/install-os/disk-partition' }
+                    ]
+                },
+                {
                     text: '常用软件的安装方法',
                     items: [
                         { text: 'WinRAR', link: '/prologue/install/winrar' },
