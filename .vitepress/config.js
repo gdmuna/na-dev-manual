@@ -32,7 +32,7 @@ export default defineConfig({
                     text: '谒见厅',
                     items: [
                         { text: '为什么要写这本手册', link: '/prologue/before-everything-begins/why-this-manual' },
-                        { text: '电脑系统环境验收清单', link: '/prologue/before-everything-begins/pc-system-env-checklist' },
+                        { text: '电脑系统环境检查清单', link: '/prologue/before-everything-begins/pc-system-env-checklist' },
                         { text: '提问的艺术', link: '/prologue/before-everything-begins/how-to-ask' }
                     ]
                 },
@@ -54,14 +54,14 @@ export default defineConfig({
                         { text: '使用 Ventoy 制作系统启动盘', link: '/prologue/install-os/use-ventoy-make-bootable-usb-device' },
                         { text: '如何对磁盘进行分区', link: '/prologue/install-os/disk-partition' }
                     ]
-                },
-                {
-                    text: '常用软件的安装方法',
-                    items: [
-                        { text: 'WinRAR', link: '/prologue/install/winrar' },
-                        { text: 'Motrix', link: '/prologue/install/motrix' },
-                        { text: 'Office', link: '/prologue/install/office' }
-                    ]
+                    // },
+                    // {
+                    //     text: '常用软件的安装方法',
+                    //     items: [
+                    //         { text: 'WinRAR', link: '/prologue/install/winrar' },
+                    //         { text: 'Motrix', link: '/prologue/install/motrix' },
+                    //         { text: 'Office', link: '/prologue/install/office' }
+                    //     ]
                 }
             ],
             '/web/': [
