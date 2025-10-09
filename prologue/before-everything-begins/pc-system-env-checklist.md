@@ -102,3 +102,41 @@ E盘至少 400G，并建议以 Data 命名
     - 划分出 D盘 作为软件安装的统一目录
     - 软件安装路径 **不应出现中文或其他特殊字符**
     - **同一家公司** 的多个软件应安装在 **同一父级目录** 下
+
+- :ballot_box_with_check: 电脑上必须安装 Visual Studio Code
+    - VS Code 的版本类型为 `System Installer`
+    - VS Code 的 **设置** 需要包含以下内容（可直接打开设置的 `setting.json` 文件覆盖粘贴）
+        ```json
+        {
+            // 编辑器配置
+            "editor.fontFamily": "Cascadia Mono, 等线",
+            "editor.fontSize": 18,
+            "editor.inlineSuggest.enabled": true,
+            // 文件关联配置
+            "files.autoGuessEncoding": true,
+            "files.associations": {
+                "*.css": "tailwindcss"
+            },
+            "files.autoSave": "afterDelay",
+            "files.eol": "\n",
+            // Git 配置
+            "git.autofetch": true,
+            "git.confirmSync": false,
+            // 终端配置
+            "terminal.integrated.fontFamily": "Cascadia Mono, 等线",
+            "terminal.integrated.defaultProfile.windows": "Command Prompt",
+            // GitLens 扩展配置
+            "gitlens.views.scm.grouped.views": {
+                "commits": true,
+                "branches": false,
+                "remotes": false,
+                "stashes": false,
+                "tags": true,
+                "worktrees": true,
+                "contributors": true,
+                "repositories": true,
+                "searchAndCompare": true,
+                "launchpad": true
+            }
+        }
+        ```
